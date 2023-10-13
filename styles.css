@@ -2,11 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: #f0f0f0; /* خلفية الصفحة */
+  color: #333;
 }
 
 header {
-  background-color: #333;
+  background-color: #3498db; /* أزرق فاتح */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -45,17 +46,11 @@ main {
   padding: 20px;
 }
 
-.intro {
-  background-color: #fff;
+.intro, .latest-posts {
+  background-color: #fff; /* خلفية الصفحات الفرعية */
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
-}
-
-.latest-posts {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
 }
 
 .latest-posts h3 {
@@ -67,7 +62,7 @@ main {
 }
 
 footer {
-  background-color: #333;
+  background-color: #e74c3c; /* أحمر */
   color: #fff;
   text-align: center;
   padding: 10px;
