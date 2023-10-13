@@ -36,10 +36,11 @@ nav li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+  transition: color 0.3s ease; /* تأثير على اللون خلال 0.3 ثانية */
 }
 
 nav li a:hover {
-  border-bottom: 2px solid #fff;
+  color: #2980b9; /* لون آخر عند تحويل الماوس فوقها */
 }
 
 main {
